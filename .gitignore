@@ -7,7 +7,7 @@
 
 # bin and res .txt files
 bin/**/*.txt
-res/**
+inputs/**
 
 # Log file
 *.log
