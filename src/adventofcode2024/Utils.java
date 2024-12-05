@@ -55,4 +55,10 @@ public class Utils {
         }
         return sb.toString();
     }
+
+    public static <T> void printLists(List<T> listsToPrint) {
+        listsToPrint.stream().forEach(System.out::println);
+
+    }
+
 }
