@@ -3,9 +3,9 @@ package adventofcode2024;
 import adventofcode2024.days.Day;
 
 public class Main {
-    private static final int DAY = 5;
+    private static final int DAY = 6;
     private static final boolean TEST = false;
-    private static final boolean RUN_1 = false;
+    private static final boolean RUN_1 = true;
     private static final boolean RUN_2 = true;
 
     public static void main(String[] args) {

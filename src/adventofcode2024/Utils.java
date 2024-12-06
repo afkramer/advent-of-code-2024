@@ -61,4 +61,10 @@ public class Utils {
 
     }
 
+    public static List<String> copyList(List<String> listToCopy) {
+        List<String> copiedList = new ArrayList<>();
+        copiedList.addAll(listToCopy);
+        return copiedList;
+    }
+
 }
